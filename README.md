@@ -1,11 +1,9 @@
-# Airline-Data-Management-and-Analysis-Using-Power-BI
-To analyze and visualize airline data for operational insights, passenger management, and ticket booking trends using Power BI.
+# ✈️ Airline Data Management and Analysis Using Power BI
 
 <img width="1330" height="745" alt="Airline_dashboard" src="https://github.com/user-attachments/assets/83d3b8dd-10b4-4fea-854e-d559fb249267" />
 
 <img width="1313" height="737" alt="Screenshot 2026-01-17 000452" src="https://github.com/user-attachments/assets/fc94e92d-20bf-443b-90a7-442adcc7596f" />
 
-# ✈️ Airline Data Management and Analysis Using Power BI
 
 ## 📌 Project Overview
 The airline industry handles large volumes of operational data related to flights, passengers, and ticket bookings. Efficient analysis of this data is essential for improving operational performance, passenger management, and customer satisfaction.
