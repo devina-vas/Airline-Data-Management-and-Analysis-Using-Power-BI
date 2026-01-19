@@ -1,131 +1,85 @@
 #  Airline Data Management and Analysis Using Power BI ✈️ 
 
+## 📷 Dashboard Preview
+---
+
 <img width="1330" height="745" alt="Airline_dashboard" src="https://github.com/user-attachments/assets/83d3b8dd-10b4-4fea-854e-d559fb249267" />
 
 <img width="1313" height="737" alt="Screenshot 2026-01-17 000452" src="https://github.com/user-attachments/assets/fc94e92d-20bf-443b-90a7-442adcc7596f" />
 
 
 ## 📌 Project Overview
-The airline industry handles large volumes of operational data related to flights, passengers, and ticket bookings. Efficient analysis of this data is essential for improving operational performance, passenger management, and customer satisfaction.
+The airline industry manages complex operational data related to flight schedules, passenger movement, and ticket bookings. Efficient analysis of this data is essential for improving operational efficiency, monitoring performance, and enhancing customer satisfaction.
 
-This project uses **Power BI** to analyze airline operations by integrating multiple datasets, performing data cleaning and modeling, creating DAX calculations, and building an interactive business intelligence dashboard that provides actionable insights.
-
----
-
-## 🎯 Objectives
-- Analyze airline flight performance and operational status  
-- Understand passenger distribution across airlines and destinations  
-- Monitor ticket booking trends and cancellations  
-- Identify performance gaps and optimization opportunities  
-- Build an interactive dashboard for data-driven decision making  
+This project focuses on analyzing airline operational data using **Power BI** to build an interactive dashboard that provides clear business insights. Multiple datasets were integrated, cleaned, and modeled to deliver a consolidated view of airline performance, passenger distribution, and ticket booking trends.
 
 ---
 
-## 📂 Datasets Used
-The project uses three structured datasets:
+## 🎯 Project Objectives
+The primary objective of this project is to demonstrate how airline data can be transformed into meaningful insights through effective data analytics and visualization. The project aims to analyze flight performance, track passenger movement, monitor booking statuses, and identify operational areas that require improvement.
 
-### 1️⃣ Flight Information
-- FlightID  
-- FlightNumber  
-- Airline  
-- Destination  
-- Flight Status (On Time / Cancelled / Delayed)
-
-### 2️⃣ Passenger Information
-- PassengerID  
-- FlightID  
-- Seat Number  
-
-### 3️⃣ Ticket Information
-- TicketID  
-- FlightID  
-- Booking Status (Confirmed / Cancelled / Pending)
+Another important goal is to showcase end-to-end Power BI skills, including data preparation, data modeling, DAX calculations, and dashboard storytelling for business decision-making.
 
 ---
 
-## 🛠️ Tools & Technologies
-- Power BI  
-- Power Query (ETL & Data Transformation)  
-- DAX (Data Analysis Expressions)  
-- Data Modeling  
-- Power BI Service  
+## 📂 Data Source Description
+The analysis is based on three structured datasets representing different aspects of airline operations. The **Flight Information** dataset contains details such as flight numbers, airlines, destinations, and flight status. The **Passenger Information** dataset includes passenger identifiers linked to flights, along with seating details. The **Ticket Information** dataset captures ticket bookings and their respective statuses.
+
+These datasets were linked using a common key, **FlightID**, enabling a unified view of airline operations.
 
 ---
 
 ## 🔄 Data Preparation and Cleaning
-- Imported all datasets into Power BI  
-- Cleaned data using Power Query:
-  - Removed duplicate records  
-  - Handled missing values  
-  - Standardized column formats  
-- Verified data consistency across all tables  
+All datasets were imported into Power BI and processed using **Power Query**. During this phase, duplicate records were removed, missing values were handled, and column formats were standardized to ensure consistency across datasets.
+
+Careful data cleaning was performed to maintain accuracy and reliability, ensuring that the final analysis was based on high-quality data.
 
 ---
 
 ## 🧩 Data Modeling
-- Created relationships between datasets using **FlightID** as the primary key  
-- Applied correct one-to-many cardinality  
-- Optimized the data model for performance and accurate reporting  
+A relational data model was created by establishing relationships between the flight, passenger, and ticket datasets using **FlightID** as the primary key. Proper cardinality was applied to maintain data integrity and enable accurate aggregations across tables.
+
+The data model was optimized to support efficient reporting and smooth dashboard performance.
 
 ---
 
 ## 📊 Data Transformation and Enrichment
-- Created a conditional column to classify flights as:
-  - **Best**
-  - **To Be Improved**
-- Extracted flight numbers using **Column from Examples**  
-- Enhanced dataset structure for reporting and visualization  
+To enhance analytical capabilities, additional transformations were applied to the data. Flights were classified into performance categories such as **Best** and **To Be Improved** based on their operational status. This classification helped in identifying high-performing flights as well as those requiring optimization.
+
+Flight numbers were also extracted and standardized using Power BI’s transformation features to improve readability and reporting clarity.
 
 ---
 
-## 🧮 DAX Calculations
-Developed DAX measures to calculate:
-- Total passengers  
-- Total tickets booked  
-- Passenger count by airline  
-- Ticket count by booking status  
-- Flight performance metrics  
-- Filtered views for “Best” flights  
+## 🧮 DAX Calculations and Measures
+Custom **DAX measures** were created to calculate key metrics such as total passengers, total tickets booked, and passenger distribution by airline. Additional measures were used to analyze booking status trends and evaluate flight performance.
+
+These calculations enabled dynamic analysis and allowed users to interact with the dashboard to explore insights at different levels.
 
 ---
 
-## 📈 Dashboard and Visualizations
-The Power BI dashboard includes:
-- KPI cards for total passengers, flights available, and tickets sold  
-- Passenger count by airline  
-- Flight performance analysis (Best vs To Be Improved)  
-- Booking status distribution  
-- Flights by airline and destination  
-- Interactive slicers for airline and destination  
+## 📈 Dashboard Design and Features
+The final Power BI dashboard presents a comprehensive view of airline operations through a clean and interactive layout. Key performance indicators highlight passenger counts, available flights, and ticket bookings. Visualizations display passenger distribution by airline, booking status breakdowns, and flight performance across destinations.
+
+Interactive slicers allow users to filter the analysis by airline and destination, making the dashboard suitable for both high-level overviews and focused analysis.
 
 ---
 
-## 🔐 Power BI Service Features
-- Implemented **Row-Level Security (RLS)** for airline-specific access  
-- Configured scheduled data refresh at **5:00 PM daily**  
-- Published the dashboard to Power BI Service  
+## 🔐 Power BI Service Implementation
+To simulate real-world business scenarios, **Row-Level Security (RLS)** was implemented to restrict data access based on airline-specific roles. The dashboard was published to **Power BI Service**, and a scheduled data refresh was configured to ensure up-to-date reporting.
 
 ---
 
 ## 📌 Key Insights
-- Airline D has the highest passenger count along with higher cancellations  
-- Phoenix destination shows high passenger traffic, indicating possible route oversaturation  
-- Majority of flights fall under the “To Be Improved” category  
-- Ticket cancellations significantly impact operational efficiency  
+The analysis reveals that Airline D has the highest passenger volume, along with a higher number of booking cancellations. Certain destinations, such as Phoenix, show consistently high passenger traffic, indicating potential route congestion. A significant number of flights fall under the “To Be Improved” category, highlighting opportunities for operational enhancement.
+
+These insights demonstrate how airline data can be used to identify performance gaps and support data-driven decision-making.
 
 ---
 
-## 📷 Project Deliverables
-- Cleaned datasets  
-- Data model screenshots  
-- DAX calculations  
-- Interactive Power BI dashboard  
-- Business insights summary  
 
----
 
 ## 🚀 Conclusion
-This project demonstrates end-to-end data analytics and business intelligence skills, including data cleaning, modeling, DAX calculations, dashboard design, and insight generation. It reflects real-world airline operational analysis and highlights how data can support informed decision-making.
+This project demonstrates an end-to-end **business intelligence and data analytics workflow** using Power BI. It highlights practical skills in data cleaning, modeling, DAX calculations, dashboard design, and insight generation. The project reflects real-world airline operational analysis and emphasizes the value of data-driven decision-making.
 
 ---
 
@@ -134,6 +88,10 @@ This project demonstrates end-to-end data analytics and business intelligence sk
 Aspiring Data Analyst | Power BI | Data Visualization | Business Intelligence  
 
 ---
+
+## 🔗 How to Use This Project
+Download the `.pbix` file and open it in **Power BI Desktop**. Use the interactive filters and visuals to explore airline performance, passenger trends, and booking patterns.
+
 
 ## 🔗 How to Use This Project
 1. Download the `.pbix` file  
